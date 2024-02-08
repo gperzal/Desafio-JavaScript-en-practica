@@ -1,0 +1,134 @@
+body {
+    font-size: .875rem;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100; /* Stay on top of everything */
+    padding: 48px 0 0; /* Height of navbar */
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+.sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 48px);
+    padding-top: .5rem;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+.nav-link {
+    font-weight: 500;
+    color: #333;
+}
+
+.nav-link .active {
+    color: #007bff;
+}
+
+main {
+    padding-top: 20px; /* Space for content */
+}
+
+/*Styles Formulario */
+.form{
+    width: 30%;
+    margin: 0 auto;
+   
+}
+
+.resultado{
+    color:green;
+    font-style: italic;
+}
+
+
+#formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+#formulario .divf{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#formulario h2{
+    width: 60%;
+    margin: 0 auto;
+}
+
+#formulario p{
+    color:red;
+    font-style: italic;
+}
+
+
+/* Style Seleccotr */
+#selector {
+    padding-left: 20vw;
+}
+
+.box-selector{
+    display: flex;
+}
+
+.box-selector-btn{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+#btn-1 {
+    background-color: #d14d41;
+   
+    width:100px;
+    height: 100px
+}
+
+#btn-2 {
+    background-color: #cc7229;
+    width:100px;
+    height: 100px
+}
+
+#btn-3 {
+    background-color: #f7f28d;  
+    width:100px;
+    height: 100px
+}
+
+#btn-4 {
+    background-color: #6bb879;
+    width:100px;
+    height: 100px
+}
+
+#btn-5 {
+    background-color: #9be4d9;
+    width:100px;
+    height: 100px
+}
+
+#btn-6 {
+    background-color: #c3488d;
+    width:100px;
+    height: 100px
+}
+
+#box-color{
+    width: 500px;
+    height: 600px
+}
+
+#box-bg{
+    border:1px solid rgb(117, 63, 63);
+    width: 100%;
+    height: 100%;
+}
