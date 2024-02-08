@@ -3,6 +3,7 @@ body {
 }
 
 .sidebar {
+    background: #34313c;
     position:fixed;
     text-align: center;
     top: 0;
@@ -26,12 +27,12 @@ body {
     font-weight: 500;
     text-align: left;
     font-size: 1.2rem;
-    color: #333;
+    color: #e7cccc;
     transition: color 0.3s ease-in-out, transform 0.3s ease-in-out; /* Suaviza la transición de estilos */
 }
 
 .nav-link .active {
-    color: #007bff;
+    color: #6d87a3
    
 }
 
@@ -84,7 +85,7 @@ main {
 
 /* Style Seleccotr */
 #selector {
-    padding-left: 20vw;
+    min-height: 100vh;
 }
 
 .box-selector{
@@ -147,5 +148,6 @@ main {
 }
 
 
-/* Calculadora */
-
+#button {
+    display: flex
+}
